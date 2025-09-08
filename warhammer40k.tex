@@ -41,7 +41,6 @@
 \else
 \fancyfoot[LE,RO]{\fbox{\parbox[c]{1.8em}{\centering\vspace{0.5em}\thepage\vspace{0.5em}}}} % put a box around the page number, putting it in the footer. For two-sided documents, it places it (L)eft on (E)ven pages, (R)ight on (O)dd.
 \fi
-\chapterfont{\color{white}}
 %\makeatletter % Anything between this and \makeatother would usually live in a class i.e. commands meant for only a cls file.
 %\renewcommand\@maketitle{\centering\Huge\@title\\} % Casually redefining how the title works. NB, this will make twocolumn titles only live in one column.
 %\makeatother
@@ -53,7 +52,6 @@
 
 \begin{multicols}{2}
 \LRCornerWallPaper{1}{background.png}
-
 % Replace "Detachment Rule" with The name of the detachment
 \begin{minipage}[t][7cm][b]{\textwidth}
 \section{Detachment Rule}\label{sec:rule}%
@@ -76,9 +74,16 @@ Enhancement Rule Goes here
 Enhancement Rule Goes here
 \end{itemize}
 \end{minipage}
-\begin{minipage}[t][7cm][b]{\textwidth}
+\newpage
+\begin{minipage}[t][20cm][t]{\textwidth}
 \section{Stratagems}\label{sec:strats}
 % Remove background from the .psd File and Export as one of the included Graphics
+\includegraphics[width =0.45\textwidth]{Stratagem_1.png}
+\includegraphics[width =0.45\textwidth]{Stratagem_2.png}
+\includegraphics[width =0.45\textwidth]{Stratagem_3.png}
+\includegraphics[width =0.45\textwidth]{Stratagem_4.png}
+\includegraphics[width =0.45\textwidth] {Stratagem_5.png}
+\includegraphics[width =0.45\textwidth]{Stratagem_6.png}
 \end{minipage}
 \end{multicols}
 \end{document}
