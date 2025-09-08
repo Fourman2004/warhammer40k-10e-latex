@@ -1,6 +1,6 @@
 \documentclass{report}
 \usepackage{wallpaper} %Used for the wallpaper
-\usepackage{xcolor}
+\usepackage[table]{xcolor}
 \usepackage{sectsty}
 \usepackage{blindtext} % Used for Lorem Ipsum
 \usepackage[margin=2cm]{geometry} % Easy way to define margins
@@ -12,7 +12,7 @@
 \usepackage{ifxetex}
 \ifxetex
 \usepackage{xltxtra} % This package loads fixltx2e, metalogo, xunicode, fontspec
-\newfontfamily\ork{Civic}
+\newfontfamily\ork{Conduit ITC}
 \setmainfont[Ligatures={Common,TeX}]{Nimbus Sans L}
 \else
 \usepackage[scaled]{helvet} % Next three lines choose Helvetica as the font.
@@ -33,8 +33,8 @@
 
 \setcounter{secnumdepth}{-1} % Get rid of all numbering, but let everything turn up in the table of contents
 
-\renewcommand{\headrule}{\includegraphics[width =1.11\textwidth]{header.png}} % Fancy ork header.
-\renewcommand{\footrule}{\includegraphics[width =1.11\textwidth]{footer.png}}
+\renewcommand{\headrule}{\textcolor{red}{\includegraphics[width =1.11\textwidth]{header.png}}} % Fancy ork header.
+\renewcommand{\footrule}{\textcolor{red}{\includegraphics[width =1.11\textwidth]{footer.png}}}
 
 %\makeatletter % Anything between this and \makeatother would usually live in a class i.e. commands meant for only a cls file.
 %\renewcommand\@maketitle{\centering\Huge\@title\\} % Casually redefining how the title works. NB, this will make twocolumn titles only live in one column.
@@ -43,14 +43,27 @@
 \begin{document}
 \chapter{Detachment name}
 %\thispagestyle{fancy} % Needed to make sure we get the nice header even on the ``titlepage''
-
 \begin{multicols}{2}
 \LRCornerWallPaper{1}{background.png}
 % Replace "Detachment Rule" with The name of the detachment
-\begin{minipage}[t][7cm][b]{\textwidth}
+\begin{minipage}[t][10cm][b]{\textwidth}
 \section{Detachment Rule}\label{sec:rule}%
 \textit{Fluff goes here}\\
 Rules go here.\\
+\\
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+
+\begin{tabular}{|
+>{\columncolor[HTML]{3f3f3f}}l |l|}
+\hline
+{\color[HTML]{FFFFFF} Combat Patrol} & 0 \\ \hline
+{\color[HTML]{FFFFFF} Incursion}     & 0 \\ \hline
+{\color[HTML]{FFFFFF} Strike Force}  & 0 \\ \hline
+{\color[HTML]{FFFFFF} Onslaught}     & 0 \\ \hline
+\end{tabular}
+\\
 %This table is for any mechanic that relies on a select amount of points or units.
 \section{Enhancements}
 \begin{itemize}
@@ -69,7 +82,7 @@ Enhancement Rule Goes here
 \end{itemize}
 \end{minipage}
 \newpage
-\begin{minipage}[t][23cm][b]{\textwidth}
+\begin{minipage}[t][23.5cm][b]{\textwidth}
 \section{Stratagems}\label{sec:strats}
 % Remove background from the .psd File and Export as one of the included Graphics
 \includegraphics[width =0.45\textwidth]{Stratagem_1.png}

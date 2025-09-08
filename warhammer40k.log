@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.23)  9 SEP 2025 00:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.23)  9 SEP 2025 00:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -100,6 +100,23 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 \tileX=\skip60
 \tileY=\skip61
 )
+(C:\Users\marsh\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
+
+(C:\Users\marsh\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+\col@sep=\dimen155
+\ar@mcellbox=\box53
+\extrarowheight=\dimen156
+\NC@list=\toks18
+\extratabsurround=\skip62
+\backup@length=\skip63
+\ar@cellbox=\box54
+)
+\everycr=\toks19
+\minrowclearance=\skip64
+\rownum=\count287
+)
 (C:\Users\marsh\AppData\Local\Programs\MiKTeX\tex/latex/sectsty\sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
@@ -118,24 +135,24 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 (C:\Users\marsh\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count287
-\c@Blindtext=\count288
-\c@blind@countparstart=\count289
-\blind@countxx=\count290
-\blindtext@numBlindtext=\count291
-\blind@countyy=\count292
-\c@blindlist=\count293
-\c@blindlistlevel=\count294
-\c@blindlist@level=\count295
-\blind@listitem=\count296
-\c@blind@listcount=\count297
-\c@blind@levelcount=\count298
-\blind@mathformula=\count299
-\blind@Mathformula=\count300
-\c@blind@randomcount=\count301
-\c@blind@randommax=\count302
-\c@blind@pangramcount=\count303
-\c@blind@pangrammax=\count304
+\c@blindtext=\count288
+\c@Blindtext=\count289
+\c@blind@countparstart=\count290
+\blind@countxx=\count291
+\blindtext@numBlindtext=\count292
+\blind@countyy=\count293
+\c@blindlist=\count294
+\c@blindlistlevel=\count295
+\c@blindlist@level=\count296
+\blind@listitem=\count297
+\c@blind@listcount=\count298
+\c@blind@levelcount=\count299
+\blind@mathformula=\count300
+\blind@Mathformula=\count301
+\c@blind@randomcount=\count302
+\c@blind@randommax=\count303
+\c@blind@pangramcount=\count304
+\c@blind@pangrammax=\count305
 )
 (C:\Users\marsh\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -146,38 +163,38 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (C:\Users\marsh\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-\Gm@cnth=\count305
-\Gm@cntv=\count306
-\c@Gm@tempcnt=\count307
-\Gm@bindingoffset=\dimen155
-\Gm@wd@mp=\dimen156
-\Gm@odd@mp=\dimen157
-\Gm@even@mp=\dimen158
-\Gm@layoutwidth=\dimen159
-\Gm@layoutheight=\dimen160
-\Gm@layouthoffset=\dimen161
-\Gm@layoutvoffset=\dimen162
-\Gm@dimlist=\toks18
+\Gm@cnth=\count306
+\Gm@cntv=\count307
+\c@Gm@tempcnt=\count308
+\Gm@bindingoffset=\dimen157
+\Gm@wd@mp=\dimen158
+\Gm@odd@mp=\dimen159
+\Gm@even@mp=\dimen160
+\Gm@layoutwidth=\dimen161
+\Gm@layoutheight=\dimen162
+\Gm@layouthoffset=\dimen163
+\Gm@layoutvoffset=\dimen164
+\Gm@dimlist=\toks20
 
 (C:\Users\marsh\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 (C:\Users\marsh\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip62
-\f@nch@offset@elh=\skip63
-\f@nch@offset@erh=\skip64
-\f@nch@offset@olh=\skip65
-\f@nch@offset@orh=\skip66
-\f@nch@offset@elf=\skip67
-\f@nch@offset@erf=\skip68
-\f@nch@offset@olf=\skip69
-\f@nch@offset@orf=\skip70
-\f@nch@height=\skip71
-\f@nch@footalignment=\skip72
-\f@nch@widthL=\skip73
-\f@nch@widthC=\skip74
-\f@nch@widthR=\skip75
-\@temptokenb=\toks19
+\f@nch@headwidth=\skip65
+\f@nch@offset@elh=\skip66
+\f@nch@offset@erh=\skip67
+\f@nch@offset@olh=\skip68
+\f@nch@offset@orh=\skip69
+\f@nch@offset@elf=\skip70
+\f@nch@offset@erf=\skip71
+\f@nch@offset@olf=\skip72
+\f@nch@offset@orf=\skip73
+\f@nch@height=\skip74
+\f@nch@footalignment=\skip75
+\f@nch@widthL=\skip76
+\f@nch@widthC=\skip77
+\f@nch@widthR=\skip78
+\@temptokenb=\toks21
 )
 (C:\Users\marsh\AppData\Local\Programs\MiKTeX\tex/latex/parskip\parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
@@ -192,33 +209,31 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
 (C:\Users\marsh\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count308
+\etb@tempcnta=\count309
 )) (C:\Users\marsh\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
-\c@tracingmulticols=\count309
-\mult@box=\box53
-\multicol@leftmargin=\dimen163
-\c@unbalance=\count310
-\c@collectmore=\count311
-\doublecol@number=\count312
-\multicoltolerance=\count313
-\multicolpretolerance=\count314
-\full@width=\dimen164
-\page@free=\dimen165
-\premulticols=\dimen166
-\postmulticols=\dimen167
-\multicolsep=\skip76
-\multicolbaselineskip=\skip77
-\partial@page=\box54
-\last@line=\box55
-\mc@boxedresult=\box56
-\maxbalancingoverflow=\dimen168
-\mult@rightbox=\box57
-\mult@grightbox=\box58
-\mult@firstbox=\box59
-\mult@gfirstbox=\box60
-\@tempa=\box61
-\@tempa=\box62
+\c@tracingmulticols=\count310
+\mult@box=\box55
+\multicol@leftmargin=\dimen165
+\c@unbalance=\count311
+\c@collectmore=\count312
+\doublecol@number=\count313
+\multicoltolerance=\count314
+\multicolpretolerance=\count315
+\full@width=\dimen166
+\page@free=\dimen167
+\premulticols=\dimen168
+\postmulticols=\dimen169
+\multicolsep=\skip79
+\multicolbaselineskip=\skip80
+\partial@page=\box56
+\last@line=\box57
+\mc@boxedresult=\box58
+\maxbalancingoverflow=\dimen170
+\mult@rightbox=\box59
+\mult@grightbox=\box60
+\mult@firstbox=\box61
+\mult@gfirstbox=\box62
 \@tempa=\box63
 \@tempa=\box64
 \@tempa=\box65
@@ -253,28 +268,30 @@ Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
 \@tempa=\box94
 \@tempa=\box95
 \@tempa=\box96
-\c@minrows=\count315
-\c@columnbadness=\count316
-\c@finalcolumnbadness=\count317
-\last@try=\dimen169
-\multicolovershoot=\dimen170
-\multicolundershoot=\dimen171
-\mult@nat@firstbox=\box97
-\colbreak@box=\box98
-\mc@col@check@num=\count318
-\g__mc_curr_col_int=\count319
+\@tempa=\box97
+\@tempa=\box98
+\c@minrows=\count316
+\c@columnbadness=\count317
+\c@finalcolumnbadness=\count318
+\last@try=\dimen171
+\multicolovershoot=\dimen172
+\multicolundershoot=\dimen173
+\mult@nat@firstbox=\box99
+\colbreak@box=\box100
+\mc@col@check@num=\count319
+\g__mc_curr_col_int=\count320
 )
 (C:\Users\marsh\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box99
-\beforetitleunit=\skip78
-\aftertitleunit=\skip79
-\ttl@plus=\dimen172
-\ttl@minus=\dimen173
-\ttl@toksa=\toks20
-\titlewidth=\dimen174
-\titlewidthlast=\dimen175
-\titlewidthfirst=\dimen176
+\ttl@box=\box101
+\beforetitleunit=\skip81
+\aftertitleunit=\skip82
+\ttl@plus=\dimen174
+\ttl@minus=\dimen175
+\ttl@toksa=\toks22
+\titlewidth=\dimen176
+\titlewidthlast=\dimen177
+\titlewidthfirst=\dimen178
 )
 (C:\Users\marsh\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
@@ -296,7 +313,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (C:\Users\marsh\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count320
+\l__color_backend_stack_int=\count321
 ) (warhammer40k.aux)
 \openout1 = `warhammer40k.aux'.
 
@@ -318,17 +335,17 @@ LaTeX Font Info:    ... okay on input line 43.
 (C:\Users\marsh\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count321
-\scratchdimen=\dimen177
-\scratchbox=\box100
-\nofMPsegments=\count322
-\nofMParguments=\count323
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count324
-\MPscratchDim=\dimen178
-\MPnumerator=\count325
-\makeMPintoPDFobject=\count326
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count322
+\scratchdimen=\dimen179
+\scratchbox=\box102
+\nofMPsegments=\count323
+\nofMParguments=\count324
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count325
+\MPscratchDim=\dimen180
+\MPnumerator=\count326
+\makeMPintoPDFobject=\count327
+\everyMPtoPDFconversion=\toks24
 )
 (C:\Users\marsh\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -400,29 +417,43 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 23.63593pt on input line 44.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 51.
+(Font)              scaled to size 9.49997pt on input line 50.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 51.
+(Font)              scaled to size 13.67995pt on input line 50.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 52.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 51.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 52.
+(Font)              scaled to size 9.49997pt on input line 51.
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--55
+Underfull \hbox (badness 10000) in paragraph at lines 51--57
 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 5
-7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--57
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 58.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 58.
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--68
+
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 7
+0.
 (C:\Users\marsh\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 57.
+(Font)              scaled to size 9.49997pt on input line 70.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 57.
+(Font)              scaled to size 11.39996pt on input line 70.
 
-Overfull \hbox (255.242pt too wide) in paragraph at lines 50--71
+Overfull \hbox (255.242pt too wide) in paragraph at lines 49--84
 [][] 
  []
 
@@ -435,11 +466,11 @@ Overfull \hbox (255.242pt too wide) in paragraph at lines 50--71
 <header.png, id=1, 1927.2pt x 338.26375pt>
 File: header.png Graphic file (type png)
 <use header.png>
-Package pdftex.def Info: header.png  used on input line 71.
+Package pdftex.def Info: header.png  used on input line 84.
 (pdftex.def)             Requested size: 555.53754pt x 97.50555pt.
 
 Overfull \hbox (55.05354pt too wide) has occurred while \output is active
-[][] 
+[][][][] 
  []
 
 
@@ -452,11 +483,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 <footer.png, id=3, 1927.2pt x 338.26375pt>
 File: footer.png Graphic file (type png)
 <use footer.png>
-Package pdftex.def Info: footer.png  used on input line 71.
+Package pdftex.def Info: footer.png  used on input line 84.
 (pdftex.def)             Requested size: 555.53754pt x 97.50555pt.
 
 Overfull \hbox (55.05354pt too wide) has occurred while \output is active
-[][] 
+[][][][] 
  []
 
 
@@ -467,7 +498,7 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 <background.png, id=4, 597.432pt x 845.0772pt>
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png  used on input line 71.
+Package pdftex.def Info: background.png  used on input line 84.
 (pdftex.def)             Requested size: 562.01462pt x 794.97874pt.
 [1{C:/Users/marsh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ma
 rsh/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
@@ -477,45 +508,45 @@ rsh/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 <Stratagem_1.png, id=15, 843.15pt x 724.7075pt>
 File: Stratagem_1.png Graphic file (type png)
 <use Stratagem_1.png>
-Package pdftex.def Info: Stratagem_1.png  used on input line 75.
+Package pdftex.def Info: Stratagem_1.png  used on input line 88.
 (pdftex.def)             Requested size: 225.21626pt x 193.57259pt.
 <Stratagem_2.png, id=16, 843.15pt x 724.7075pt>
 File: Stratagem_2.png Graphic file (type png)
 <use Stratagem_2.png>
-Package pdftex.def Info: Stratagem_2.png  used on input line 76.
+Package pdftex.def Info: Stratagem_2.png  used on input line 89.
 (pdftex.def)             Requested size: 225.21626pt x 193.57259pt.
 <Stratagem_3.png, id=17, 843.15pt x 724.7075pt>
 File: Stratagem_3.png Graphic file (type png)
 <use Stratagem_3.png>
-Package pdftex.def Info: Stratagem_3.png  used on input line 77.
+Package pdftex.def Info: Stratagem_3.png  used on input line 90.
 (pdftex.def)             Requested size: 225.21626pt x 193.57259pt.
 <Stratagem_4.png, id=18, 843.15pt x 724.7075pt>
 File: Stratagem_4.png Graphic file (type png)
 <use Stratagem_4.png>
-Package pdftex.def Info: Stratagem_4.png  used on input line 78.
+Package pdftex.def Info: Stratagem_4.png  used on input line 91.
 (pdftex.def)             Requested size: 225.21626pt x 193.57259pt.
 <Stratagem_5.png, id=19, 843.15pt x 724.7075pt>
 File: Stratagem_5.png Graphic file (type png)
 <use Stratagem_5.png>
-Package pdftex.def Info: Stratagem_5.png  used on input line 79.
+Package pdftex.def Info: Stratagem_5.png  used on input line 92.
 (pdftex.def)             Requested size: 225.21626pt x 193.57259pt.
 <Stratagem_6.png, id=20, 843.15pt x 724.7075pt>
 File: Stratagem_6.png Graphic file (type png)
 <use Stratagem_6.png>
-Package pdftex.def Info: Stratagem_6.png  used on input line 80.
+Package pdftex.def Info: Stratagem_6.png  used on input line 93.
 (pdftex.def)             Requested size: 225.21626pt x 193.57259pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--81
+Underfull \hbox (badness 10000) in paragraph at lines 88--94
 [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--81
+Underfull \hbox (badness 10000) in paragraph at lines 88--94
 [] []
  []
 
 
-Overfull \hbox (255.242pt too wide) in paragraph at lines 72--82
+Overfull \hbox (255.242pt too wide) in paragraph at lines 85--95
 [][] 
  []
 
@@ -529,11 +560,11 @@ Overfull \hbox (255.242pt too wide) in paragraph at lines 72--82
 
 File: header.png Graphic file (type png)
 <use header.png>
-Package pdftex.def Info: header.png  used on input line 83.
+Package pdftex.def Info: header.png  used on input line 95.
 (pdftex.def)             Requested size: 555.53754pt x 97.50555pt.
 
 Overfull \hbox (55.05354pt too wide) has occurred while \output is active
-[][] 
+[][][][] 
  []
 
 
@@ -545,11 +576,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 File: footer.png Graphic file (type png)
 <use footer.png>
-Package pdftex.def Info: footer.png  used on input line 83.
+Package pdftex.def Info: footer.png  used on input line 95.
 (pdftex.def)             Requested size: 555.53754pt x 97.50555pt.
 
 Overfull \hbox (55.05354pt too wide) has occurred while \output is active
-[][] 
+[][][][] 
  []
 
 
@@ -559,7 +590,7 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png  used on input line 83.
+Package pdftex.def Info: background.png  used on input line 95.
 (pdftex.def)             Requested size: 562.01462pt x 794.97874pt.
 [2 <./Stratagem_1.png> <./Stratagem_2.png> <./Stratagem_3.png> <./Stratagem_4.p
 ng> <./Stratagem_5.png> <./Stratagem_6.png>] (warhammer40k.aux)
@@ -569,19 +600,19 @@ L3 programming layer <2025-05-26>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5037 strings out of 468219
- 81789 string characters out of 5432869
- 499510 words of memory out of 5000000
- 33495 multiletter control sequences out of 15000+600000
+ 5206 strings out of 468219
+ 84330 string characters out of 5432869
+ 505321 words of memory out of 5000000
+ 33658 multiletter control sequences out of 15000+600000
  643790 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,13n,79p,1203b,469s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,13n,79p,1203b,482s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\marsh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
 1000.pk><C:/Users/marsh/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/
 uhvb8a.pfb><C:/Users/marsh/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvet
 ic/uhvr8a.pfb><C:/Users/marsh/AppData/Local/Programs/MiKTeX/fonts/type1/urw/hel
 vetic/uhvro8a.pfb>
-Output written on warhammer40k.pdf (2 pages, 2008082 bytes).
+Output written on warhammer40k.pdf (2 pages, 2009345 bytes).
 PDF statistics:
  49 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
