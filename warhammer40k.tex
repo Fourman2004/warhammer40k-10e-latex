@@ -33,21 +33,15 @@
 
 \setcounter{secnumdepth}{-1} % Get rid of all numbering, but let everything turn up in the table of contents
 
-\renewcommand{\headrule}{\includegraphics[width =\textwidth]{dirtyheader.png}} % Fancy ork header.
+\renewcommand{\headrule}{\includegraphics[width =1.11\textwidth]{header.png}} % Fancy ork header.
+\renewcommand{\footrule}{\includegraphics[width =1.11\textwidth]{footer.png}}
 
-\fancyfoot{} % clearing the footer
-\ifxetex
-\fancyfoot[LE,RO]{\fbox{\parbox[c]{1.8em}{\ork\centering\vspace{0.5em}\thepage\vspace{0.5em}}}} % put a box around the page number, putting it in the footer. For two-sided documents, it places it (L)eft on (E)ven pages, (R)ight on (O)dd.
-\else
-\fancyfoot[LE,RO]{\fbox{\parbox[c]{1.8em}{\centering\vspace{0.5em}\thepage\vspace{0.5em}}}} % put a box around the page number, putting it in the footer. For two-sided documents, it places it (L)eft on (E)ven pages, (R)ight on (O)dd.
-\fi
 %\makeatletter % Anything between this and \makeatother would usually live in a class i.e. commands meant for only a cls file.
 %\renewcommand\@maketitle{\centering\Huge\@title\\} % Casually redefining how the title works. NB, this will make twocolumn titles only live in one column.
 %\makeatother
 
 \begin{document}
 \chapter{Detachment name}
-%\maketitle
 %\thispagestyle{fancy} % Needed to make sure we get the nice header even on the ``titlepage''
 
 \begin{multicols}{2}
@@ -75,7 +69,7 @@ Enhancement Rule Goes here
 \end{itemize}
 \end{minipage}
 \newpage
-\begin{minipage}[t][20cm][t]{\textwidth}
+\begin{minipage}[t][23cm][b]{\textwidth}
 \section{Stratagems}\label{sec:strats}
 % Remove background from the .psd File and Export as one of the included Graphics
 \includegraphics[width =0.45\textwidth]{Stratagem_1.png}

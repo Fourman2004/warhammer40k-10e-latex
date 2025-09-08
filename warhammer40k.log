@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.23)  8 SEP 2025 23:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.23)  9 SEP 2025 00:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -293,13 +293,6 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 9.49997pt on input line 116.
 )
-
-Package fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less.
-(fancyhdr)                Please consider using the `twoside' option on input l
-ine 50.
-
-
 (C:\Users\marsh\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
@@ -307,20 +300,20 @@ File: l3backend-pdftex.def 2025-04-14 L3 backend support: PDF output (pdfTeX)
 ) (warhammer40k.aux)
 \openout1 = `warhammer40k.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
-LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 (C:\Users\marsh\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -405,36 +398,31 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 23.63593pt on input line 57.
-<header.png, id=1, 1927.2pt x 338.26375pt>
-File: header.png Graphic file (type png)
-<use header.png>
-Package pdftex.def Info: header.png  used on input line 58.
-(pdftex.def)             Requested size: 500.484pt x 87.84326pt.
+(Font)              scaled to size 23.63593pt on input line 44.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 66.
+(Font)              scaled to size 9.49997pt on input line 51.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 66.
+(Font)              scaled to size 13.67995pt on input line 51.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 67.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 52.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 67.
+(Font)              scaled to size 9.49997pt on input line 52.
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--70
+Underfull \hbox (badness 10000) in paragraph at lines 52--55
 
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 7
-2.
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 5
+7.
 (C:\Users\marsh\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 72.
+(Font)              scaled to size 9.49997pt on input line 57.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 11.39996pt on input line 72.
+(Font)              scaled to size 11.39996pt on input line 57.
 
-Overfull \hbox (255.242pt too wide) in paragraph at lines 65--86
+Overfull \hbox (255.242pt too wide) in paragraph at lines 50--71
 [][] 
  []
 
@@ -444,62 +432,90 @@ Overfull \hbox (255.242pt too wide) in paragraph at lines 65--86
 
 
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 86.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 86.
-<background.png, id=3, 597.432pt x 845.0772pt>
+<header.png, id=1, 1927.2pt x 338.26375pt>
+File: header.png Graphic file (type png)
+<use header.png>
+Package pdftex.def Info: header.png  used on input line 71.
+(pdftex.def)             Requested size: 555.53754pt x 97.50555pt.
+
+Overfull \hbox (55.05354pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 109.50555pt, for example:
+(fancyhdr)                \setlength{\headheight}{109.50555pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-97.50555pt}.
+
+<footer.png, id=3, 1927.2pt x 338.26375pt>
+File: footer.png Graphic file (type png)
+<use footer.png>
+Package pdftex.def Info: footer.png  used on input line 71.
+(pdftex.def)             Requested size: 555.53754pt x 97.50555pt.
+
+Overfull \hbox (55.05354pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 109.50555pt, for example:
+(fancyhdr)                \setlength{\footskip}{109.50555pt}.
+
+<background.png, id=4, 597.432pt x 845.0772pt>
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png  used on input line 86.
+Package pdftex.def Info: background.png  used on input line 71.
 (pdftex.def)             Requested size: 562.01462pt x 794.97874pt.
 [1{C:/Users/marsh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/ma
 rsh/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
- <./background.png (PNG copy)> <./header.png>]
-<Stratagem_1.png, id=12, 843.15pt x 724.7075pt>
+ <./background.png (PNG copy)> <./header.png> <./footer.png>]
+<Stratagem_1.png, id=15, 843.15pt x 724.7075pt>
 File: Stratagem_1.png Graphic file (type png)
 <use Stratagem_1.png>
-Package pdftex.def Info: Stratagem_1.png  used on input line 91.
+Package pdftex.def Info: Stratagem_1.png  used on input line 75.
 (pdftex.def)             Requested size: 225.21626pt x 193.57259pt.
-<Stratagem_2.png, id=13, 843.15pt x 724.7075pt>
+<Stratagem_2.png, id=16, 843.15pt x 724.7075pt>
 File: Stratagem_2.png Graphic file (type png)
 <use Stratagem_2.png>
-Package pdftex.def Info: Stratagem_2.png  used on input line 92.
+Package pdftex.def Info: Stratagem_2.png  used on input line 76.
 (pdftex.def)             Requested size: 225.21626pt x 193.57259pt.
-<Stratagem_3.png, id=14, 843.15pt x 724.7075pt>
+<Stratagem_3.png, id=17, 843.15pt x 724.7075pt>
 File: Stratagem_3.png Graphic file (type png)
 <use Stratagem_3.png>
-Package pdftex.def Info: Stratagem_3.png  used on input line 93.
+Package pdftex.def Info: Stratagem_3.png  used on input line 77.
 (pdftex.def)             Requested size: 225.21626pt x 193.57259pt.
-<Stratagem_4.png, id=15, 843.15pt x 724.7075pt>
+<Stratagem_4.png, id=18, 843.15pt x 724.7075pt>
 File: Stratagem_4.png Graphic file (type png)
 <use Stratagem_4.png>
-Package pdftex.def Info: Stratagem_4.png  used on input line 94.
+Package pdftex.def Info: Stratagem_4.png  used on input line 78.
 (pdftex.def)             Requested size: 225.21626pt x 193.57259pt.
-<Stratagem_5.png, id=16, 843.15pt x 724.7075pt>
+<Stratagem_5.png, id=19, 843.15pt x 724.7075pt>
 File: Stratagem_5.png Graphic file (type png)
 <use Stratagem_5.png>
-Package pdftex.def Info: Stratagem_5.png  used on input line 95.
+Package pdftex.def Info: Stratagem_5.png  used on input line 79.
 (pdftex.def)             Requested size: 225.21626pt x 193.57259pt.
-<Stratagem_6.png, id=17, 843.15pt x 724.7075pt>
+<Stratagem_6.png, id=20, 843.15pt x 724.7075pt>
 File: Stratagem_6.png Graphic file (type png)
 <use Stratagem_6.png>
-Package pdftex.def Info: Stratagem_6.png  used on input line 96.
+Package pdftex.def Info: Stratagem_6.png  used on input line 80.
 (pdftex.def)             Requested size: 225.21626pt x 193.57259pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--97
+Underfull \hbox (badness 10000) in paragraph at lines 75--81
 [][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--97
+Underfull \hbox (badness 10000) in paragraph at lines 75--81
 [] []
  []
 
 
-Overfull \hbox (255.242pt too wide) in paragraph at lines 88--98
+Overfull \hbox (255.242pt too wide) in paragraph at lines 72--82
 [][] 
  []
 
@@ -511,9 +527,39 @@ Overfull \hbox (255.242pt too wide) in paragraph at lines 88--98
 
 
 
+File: header.png Graphic file (type png)
+<use header.png>
+Package pdftex.def Info: header.png  used on input line 83.
+(pdftex.def)             Requested size: 555.53754pt x 97.50555pt.
+
+Overfull \hbox (55.05354pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 109.50555pt, for example:
+(fancyhdr)                \setlength{\headheight}{109.50555pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-97.50555pt}.
+
+File: footer.png Graphic file (type png)
+<use footer.png>
+Package pdftex.def Info: footer.png  used on input line 83.
+(pdftex.def)             Requested size: 555.53754pt x 97.50555pt.
+
+Overfull \hbox (55.05354pt too wide) has occurred while \output is active
+[][] 
+ []
+
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 109.50555pt, for example:
+(fancyhdr)                \setlength{\footskip}{109.50555pt}.
+
 File: background.png Graphic file (type png)
 <use background.png>
-Package pdftex.def Info: background.png  used on input line 99.
+Package pdftex.def Info: background.png  used on input line 83.
 (pdftex.def)             Requested size: 562.01462pt x 794.97874pt.
 [2 <./Stratagem_1.png> <./Stratagem_2.png> <./Stratagem_3.png> <./Stratagem_4.p
 ng> <./Stratagem_5.png> <./Stratagem_6.png>] (warhammer40k.aux)
@@ -521,26 +567,23 @@ ng> <./Stratagem_5.png> <./Stratagem_6.png>] (warhammer40k.aux)
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-05-26>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 5033 strings out of 468219
- 81730 string characters out of 5432869
- 500558 words of memory out of 5000000
- 33492 multiletter control sequences out of 15000+600000
- 643027 words of font info for 52 fonts, out of 8000000 for 9000
+ 5037 strings out of 468219
+ 81789 string characters out of 5432869
+ 499510 words of memory out of 5000000
+ 33495 multiletter control sequences out of 15000+600000
+ 643790 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,16n,79p,1203b,493s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/marsh/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a
-.pfb><C:/Users/marsh/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhv
-r8a.pfb><C:/Users/marsh/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/
-uhvro8a.pfb>
-Output written on warhammer40k.pdf (2 pages, 2004336 bytes).
+ 72i,13n,79p,1203b,469s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\marsh\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm
+1000.pk><C:/Users/marsh/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/
+uhvb8a.pfb><C:/Users/marsh/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvet
+ic/uhvr8a.pfb><C:/Users/marsh/AppData/Local/Programs/MiKTeX/fonts/type1/urw/hel
+vetic/uhvro8a.pfb>
+Output written on warhammer40k.pdf (2 pages, 2008082 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 49 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
