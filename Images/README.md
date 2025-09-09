@@ -1,33 +1,25 @@
 warhammer40k-latex
 ==================
 
-LaTeX template for mock Warhammer 40k documentation for 10th edition
+# Intro to Images
 
-# Intro
+Hi, Here are the images stored in the LaTeX file. Technically for this, you will not need to edit any of the LaTeX for it to happen, and all images are denoted with `\includegraphics`. For more in-depth look into adding images and in more depth, I reccomend you take a look at [This](https://www.overleaf.com/learn/latex/Inserting_Images).
 
-Hi, and thank you for taking a look at the 10e LaTex Detachment template. This is a tempalte based off of [This Repo](https://github.com/natfarleydev/warhammer40k-latex.git), and is small alterations. I do not claim to be responsible for the creation of it nor the author of the Author.
+## Editing images in the TeX document.
 
-With that said, Please look at all README's in this repository, as they will contain vital information on going about Creating Detachments.
+This is probably the simplist thing you will need to do.
 
-## What is LaTeX?
-If you are New to this, you will not know what LaTeX (Pronounced Lay-Tech) is. In short, LaTeX is a type of markup language used for research papers, along with articles, reports, and other such documentation, created in 1984 to make writing and publishing papers easier. Whilst useful for that, not many people outside of it seem to use LaTeX (and rightly so), due to it being used in such a niche but vital field. This document can help with understanding and getting to grips with LaTeX, and other such markup languages. 
+Both folders contain important images, and their source files. I will talk about the Header_Footer Folder first, before discussing the Stratagems folder.
 
-## Getting Started
-This Section will assume you are new to this fully. If you aren't, please skip.
-What you will need to start will be:
+### Header_Footer
+In this folder, you will find the Header and the footer, which is the header without any of the faction iconography. Remove the "icon here text" and export it as a .PNG when you are done, hiding the faction icon and the Icon's background (the Diamond shape) when exporting the footer. I will also reccomend keeping a note of the Hexcode used for your theme. You can use this to change the tables hexcode. Whenever you see a table, you must change only the top hexcode when customising it, the rest should remain as white (or FFFFFF), unless you wish for a custom table design, then I reccomend looking at [This](https://www.overleaf.com/learn/latex/Tables).
 
-- A LaTeX Editor or IDE (Either a web-based version, like [Overleaf](https://www.overleaf.com), or an Application IDE, such as [MikTeX](https://miktex.org/download) or [TexStudio](https://www.texstudio.org/).)
-- Understanding of Warhammer 40K 10th Edition (a good source of information is [Wahapedia](https://wahapedia.ru/)
-- Understanding of LaTeX (this will help you get comfortable with the main editing and creation of the Detachment, but if you want to customise or personlise the detachment, you will need to learn LaTeX more thoroughly)
-- A github Account (optional, but required if you are using an IDE)
+as mentioned, you only need to export it as a .PNG, and when doing so, select either Header or Footer and override the current file. When you next compile, you will see that it has changed.
 
-## Obtaining a copy of the template
+### Stratagems
+These are labelled as Stratagem_1, and to Stratagem_6. When you have finished editing and are exporting, please export as a .PNG to one of the Existing Stratagems and Override that file like you did with the header/footer. When you next compile, it should have changed. I will also reccomend when Exporting you remove the background, allowing the stratagem to blend with the document better, improving it's appearence overall.
 
-### .zip file
-The easiest way is by clicking on the `code` Button, and selecting "Download .Zip", which will automatically give you a compressed (.zip) file of the project. The rest of this will detail using a repository. You will also need to do this if you wish to import it into Overleaf or other web-based editors
+### PSD files
+Proper credit to PaulIsBadAtStuff, for he made the templates used in this document. Files are found on the Community [Discord](https://discord.com/invite/6sXJQKKcqA).
 
-### Repository
-Another way is by using this template and creating a copy of the repo. To do so, Create a github account, This is important seeing as everything will revolve around this. When you have fully set up your account, return to this repo and find the `use this template` button, click it and select "Create a New Repository", and fill out the required fields. Once it is created, you can use a github client (like [Github Desktop](https://desktop.github.com/download/) or [Fork](https://git-fork.com/). Once you have set up your client, clone the repository.
-
-# Setup Complete
-Now that Setup is complete, We can move onto what you should expect in the .TeX document, which is the file you'll be using to edit the PDF.
+# Images Complete
