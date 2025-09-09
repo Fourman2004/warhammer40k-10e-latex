@@ -12,6 +12,8 @@ With that said, Please look at all README's in this repository, as they will con
 ## What is LaTeX?
 If you are New to this, you will not know what LaTeX (Pronounced Lay-Tech) is. In short, LaTeX is a type of markup language used for research papers, along with articles, reports, and other such documentation, created in 1984 to make writing and publishing papers easier. Whilst useful for that, not many people outside of it seem to use LaTeX (and rightly so), due to it being used in such a niche but vital field. This document can help with understanding and getting to grips with LaTeX, and other such markup languages. 
 
+This is moreso a breif overview, and I strongly reccoment looking at [The Documentation](https://www.overleaf.com/learn) if you wish to know more. Aside from that, just edit where it looks like default text, and only change things if you know what you are doing.
+
 ## Getting Started
 This Section will assume you are new to this fully. If you aren't, please skip.
 What you will need to start will be:
