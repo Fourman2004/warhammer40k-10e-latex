@@ -1,13 +1,14 @@
 \documentclass{report}
 \usepackage{wallpaper} %Used for the wallpaper
 \usepackage[table]{xcolor}
+\usepackage{graphicx}
 \usepackage{sectsty}
 \usepackage{blindtext} % Used for Lorem Ipsum
 \usepackage[margin=2cm]{geometry} % Easy way to define margins
 \usepackage{fancyhdr} % Fancy header and footer
 \pagestyle{fancy}
 \usepackage{parskip} % Package to separate paragraphs with a line instead of indentation
-\usepackage{multicol} % Needed for three columns (explanation in text).
+\usepackage{multicol} % Needed for three columns.
 \usepackage[uppercase]{titlesec} % Used for easy manipulation of section headings.
 \usepackage{ifxetex}
 \ifxetex
@@ -33,8 +34,8 @@
 
 \setcounter{secnumdepth}{-1} % Get rid of all numbering, but let everything turn up in the table of contents
 
-\renewcommand{\headrule}{\textcolor{red}{\includegraphics[width =1.11\textwidth]{header.png}}} % Fancy ork header.
-\renewcommand{\footrule}{\textcolor{red}{\includegraphics[width =1.11\textwidth]{footer.png}}}
+\renewcommand{\headrule}{\includegraphics[width =1.13\textwidth]{Images/Header_footer/header.png}} % Fancy ork header.
+\renewcommand{\footrule}{\includegraphics[width =1.13\textwidth]{Images/Header_footer/footer.png}}
 
 %\makeatletter % Anything between this and \makeatother would usually live in a class i.e. commands meant for only a cls file.
 %\renewcommand\@maketitle{\centering\Huge\@title\\} % Casually redefining how the title works. NB, this will make twocolumn titles only live in one column.
@@ -80,17 +81,26 @@ Enhancement Rule Goes here
 \textit{Fluff here}
 Enhancement Rule Goes here
 \end{itemize}
+\subsection{Enhancement Point Costs}
+\begin{tabular}{|
+>{\columncolor[HTML]{3f3f3f}}l |l|}
+\hline
+{\color[HTML]{FFFFFF} Enhancement1} & 0 \\ \hline
+{\color[HTML]{FFFFFF} Enhancement2}     & 0 \\ \hline
+{\color[HTML]{FFFFFF} Enhancement3}  & 0 \\ \hline
+{\color[HTML]{FFFFFF} Enhancement4}     & 0 \\ \hline
+\end{tabular}
 \end{minipage}
 \newpage
 \begin{minipage}[t][23.5cm][b]{\textwidth}
 \section{Stratagems}\label{sec:strats}
 % Remove background from the .psd File and Export as one of the included Graphics
-\includegraphics[width =0.45\textwidth]{Stratagem_1.png}
-\includegraphics[width =0.45\textwidth]{Stratagem_2.png}
-\includegraphics[width =0.45\textwidth]{Stratagem_3.png}
-\includegraphics[width =0.45\textwidth]{Stratagem_4.png}
-\includegraphics[width =0.45\textwidth] {Stratagem_5.png}
-\includegraphics[width =0.45\textwidth]{Stratagem_6.png}
+\includegraphics[width =0.45\textwidth]{Images/Stratagems/Stratagem_1.png}
+\includegraphics[width =0.45\textwidth]{Images/Stratagems/Stratagem_2.png}
+\includegraphics[width =0.45\textwidth]{Images/Stratagems/Stratagem_3.png}
+\includegraphics[width =0.45\textwidth]{Images/Stratagems/Stratagem_4.png}
+\includegraphics[width =0.45\textwidth]{Images/Stratagems/Stratagem_5.png}
+\includegraphics[width =0.45\textwidth]{Images/Stratagems/Stratagem_6.png}
 \end{minipage}
 \end{multicols}
 \end{document}
