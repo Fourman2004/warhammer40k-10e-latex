@@ -3,6 +3,7 @@
 \usepackage[table]{xcolor}
 \usepackage{graphicx}
 \usepackage{sectsty}
+\usepackage[export]{adjustbox}
 \usepackage{blindtext} % Used for Lorem Ipsum
 \usepackage[margin=2cm]{geometry} % Easy way to define margins
 \usepackage{fancyhdr} % Fancy header and footer
@@ -13,13 +14,14 @@
 \usepackage{ifxetex}
 \ifxetex
 \usepackage{xltxtra} % This package loads fixltx2e, metalogo, xunicode, fontspec
-\newfontfamily\ork{Conduit ITC}
-\setmainfont[Ligatures={Common,TeX}]{Nimbus Sans L}
+\newfontfamily\ork{Conduit}
+\setmainfont[Ligatures={Common,TeX}]{Conduit ITC}
 \else
 \usepackage[scaled]{helvet} % Next three lines choose Helvetica as the font.
 \renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
 \usepackage[T1]{fontenc}
 \fi
+
 
 \ifxetex
 \titleformat*{\chapter}{\centering\ork\thispagestyle{fancy}}
@@ -34,78 +36,76 @@
 
 \setcounter{secnumdepth}{-1} % Get rid of all numbering, but let everything turn up in the table of contents
 
-\renewcommand{\headrule}{\includegraphics[width =1.13\textwidth]{Images/Header_footer/header.png}} % Fancy ork header.
-\renewcommand{\footrule}{\includegraphics[width =1.13\textwidth]{Images/Header_footer/footer.png}}
+
+\renewcommand{\headrule}{\includegraphics[width =1.13\textwidth]{Images/Header_footer/Header.png}} % Fancy ork header.
+\renewcommand{\footrule}{\includegraphics[width =1.13\textwidth, height=2.45cm]{Images/Header_footer/Footer.png}}
 
 %\makeatletter % Anything between this and \makeatother would usually live in a class i.e. commands meant for only a cls file.
 %\renewcommand\@maketitle{\centering\Huge\@title\\} % Casually redefining how the title works. NB, this will make twocolumn titles only live in one column.
 %\makeatother
 
+
 \begin{document}
-\color[HTML]{000000}\chapter{Detachment name}
+\color[HTML]{FFFFFF}\chapter{Detachment name here}
+\textbf{Last Editied: \today}
 %\thispagestyle{fancy} % Needed to make sure we get the nice header even on the ``titlepage''
 \begin{multicols}{2}
 \LRCornerWallPaper{1}{background.png}
 % Replace "Detachment Rule" with The name of the detachment
-\begin{minipage}[t][10cm][b]{\textwidth}
 \color[HTML]{000000}\section{Detachment Rule}\label{sec:rule}%
-\textit{Fluff goes here}\\
-Rules go here.\\
-\\
+\textit{Fluff Here.}\\
+Detachment rule here
 % Please add the following required packages to your document preamble:
 % \usepackage[table,xcdraw]{xcolor}
 % Beamer presentation requires \usepackage{colortbl} instead of \usepackage[table,xcdraw]{xcolor}
+\vfill\null
+\columnbreak
 
-\begin{tabular}{|
->{\columncolor[HTML]{3f3f3f}}l |l|}
-\hline
-{\color[HTML]{FFFFFF} Combat Patrol} & 0 \\ \hline
-{\color[HTML]{FFFFFF} Incursion}     & 0 \\ \hline
-{\color[HTML]{FFFFFF} Strike Force}  & 0 \\ \hline
-{\color[HTML]{FFFFFF} Onslaught}     & 0 \\ \hline
-\end{tabular}
-\\
 %This table is for any mechanic that relies on a select amount of points or units.
-\section{Enhancements}
-\begin{itemize}
-\item \subsection{Enhancement1}
-\textit{Fluff here}
-Enhancement Rule Goes here
-\item \subsection{Enhancement2}
-\textit{Fluff here}
-Enhancement Rule Goes here
-\item \subsection{Enhancement3}
-\textit{Fluff here}
-Enhancement Rule Goes here
-\item \subsection{Enhancement4}
-\textit{Fluff here}
-Enhancement Rule Goes here
-\end{itemize}
-\subsection{Enhancement Point Costs}
+\color[HTML]{000000}\section{Enhancements}
+\vspace{1mm}
+\subsection{Enhancement name}
+\vspace{1mm}
+\textit{Fluff here.}\\
+\textbf{Model here.} Rules here\\
+\subsection{Enhancement name}
+\vspace{1mm}
+\textit{Fluff here.}\\
+\textbf{Model here.} Rules here\\
+\subsection{Enhancement name}
+\vspace{1mm}
+\textit{Fluff here.}\\
+\textbf{Model here.} Rules here\\
+\subsection{Enhancement name}
+\vspace{1mm}
+\textit{Fluff here.}\\
+\textbf{Model here.} Rules here
+\vspace{1mm}
+\begin{adjustbox}{width=\columnwidth}
 \begin{tabular}{|
->{\columncolor[HTML]{3f3f3f}}l |l|}
+>{\columncolor[HTML]{7B0323}}l |l|}
 \hline
-{\color[HTML]{FFFFFF} Enhancement1} & 0 \\ \hline
-{\color[HTML]{FFFFFF} Enhancement2}     & 0 \\ \hline
-{\color[HTML]{FFFFFF} Enhancement3}  & 0 \\ \hline
-{\color[HTML]{FFFFFF} Enhancement4}     & 0 \\ \hline
+{\color[HTML]{FFFFFF} Enhancement} & Xpts \\ \hline
+{\color[HTML]{FFFFFF} Enhancement}     & Ypts\\ \hline
+{\color[HTML]{FFFFFF}  Enhancement}  & Zpts \\ \hline
+{\color[HTML]{FFFFFF} Enhancement}     & Wpts\\ \hline
 \end{tabular}
-\end{minipage}
-\newpage
-\begin{minipage}[t][23.5cm][b]{\textwidth}
-\color[HTML]{000000}\section{Stratagems}\label{sec:strats}
-% Remove background from the .psd File and Export as one of the included Graphics
-\includegraphics[width =0.45\textwidth]{Images/Stratagems/Stratagem_1.png}
-\includegraphics[width =0.45\textwidth]{Images/Stratagems/Stratagem_2.png}
-\includegraphics[width =0.45\textwidth]{Images/Stratagems/Stratagem_3.png}
-\includegraphics[width =0.45\textwidth]{Images/Stratagems/Stratagem_4.png}
-\includegraphics[width =0.45\textwidth]{Images/Stratagems/Stratagem_5.png}
-\includegraphics[width =0.45\textwidth]{Images/Stratagems/Stratagem_6.png}
-\end{minipage}
+\end{adjustbox}
 \end{multicols}
+\color[HTML]{FFFFFF}\section{Warpbound Incursion Force - Stratagems}
+\begin{minipage}[t][23.75cm][b]{\textwidth}
+% Remove background from the .psd File and Export as one of the included Graphics
+\includegraphics[width =0.5\textwidth]{Images/Stratagems/Stratagem_1.png}
+\includegraphics[width =0.5\textwidth]{Images/Stratagems/Stratagem_2.png}
+\includegraphics[width =0.5\textwidth]{Images/Stratagems/Stratagem_3.png}
+\includegraphics[width =0.5\textwidth]{Images/Stratagems/Stratagem_4.png}
+\includegraphics[width =0.5\textwidth]{Images/Stratagems/Stratagem_5.png}
+\includegraphics[width =0.5\textwidth]{Images/Stratagems/Stratagem_6.png}
+\end{minipage}
 \end{document}
 
 %%% Local Variables: 
 %%% mode: latex
 %%% TeX-master: t
 %%% End: 
+
